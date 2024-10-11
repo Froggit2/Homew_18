@@ -22,8 +22,7 @@ from example2.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('def/', html_func),
-    path('class/', Class_html.as_view()),
+
 
     # path('', registration_html)
     # path('', glavn_stran),
