@@ -22,10 +22,4 @@ from example2.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
-
-    # path('', registration_html)
-    # path('', glavn_stran),
-    # path('shop/', shop_stran),
-    # path('corzina/', corzina_stran)
 ]
