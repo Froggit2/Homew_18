@@ -22,4 +22,6 @@ from example2.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('def/', ),
+    path('class/',),
 ]
